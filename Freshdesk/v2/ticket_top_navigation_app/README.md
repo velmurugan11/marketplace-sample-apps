@@ -1,14 +1,10 @@
-## Ticket Top Navigation App
+## Weather buddy 
+Weather Buddy, A Freshdesk App that helps the Agent in finding current weather in his/her city and weather of other cities on a future date (within 5 days from present day) upon selection and store five recently accessed cities. 
 
-This app adds a shortcut to start the timer in the top navigation of the ticket details page. On clicking the app icon, the Start Timer form will be shown.
+The app uses JavaScript to get the desired output. 
 
-This app demonstrates the following features
+Folder Structure 
 
-1. App location - ticket_top_navigation.
-2. Using Interface APIs for opening a modal.
-3. Using Request APIs for fetching agent list.
-4. Using Instance APIs to send the message (Start timer inputs) from the modal to the app.
-5. Using Interface APIs for starting the timer.
 
-Note:
-Interface APIs are not accessible in the Modal. So, the data has to be passed from the modal to the parent location which then starts the timer.
+app/app.js
+app/template.html
